@@ -3,7 +3,7 @@
 
 [Mozilla's Common Voice](https://www.kaggle.com/mozillaorg/common-voice) 
 
-If you wish to extract the features (the npy files) on your own, then dwanload the dataset, extract it and move it with the files currently in "archive" folder. Then you will need:
+If you wish to extract the features (the npy files) on your own: dwanload the dataset, extract it and move it with the files currently in "archive" folder. Then you will need:
 1. run mp3_to_wav.py
 2. run  preparation.py
 3. run save_csv.py
