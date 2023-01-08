@@ -8,7 +8,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStoppi
 
 from utils import load_data, split_data,  compute_weight, create_model_age, create_model_gender
 
-is_age = False
+is_age = True
 # load the dataset
 X, y = load_data(csv_name="balanced_all.csv",is_age=is_age)
 # split the data into training, validation and testing sets
