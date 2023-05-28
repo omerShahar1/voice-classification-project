@@ -17,11 +17,13 @@ If you wish to extract the features (the npy files) on your own: dwanload the da
 
 
 ## Training
-* In order to train the age classification model, make sure the "is_age" flag is True (line 11 "train.py"). 
-* If you want to train the gender classification model, make sure the same flag is False.
 To train a model run the following command:
 
     python train.py
+
+* In order to train the age classification model, make sure the "is_age" flag is True (line 11 "train.py"). 
+* If you want to train the gender classification model, make sure the same flag is False.
+
 
 ## Testing
 
