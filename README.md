@@ -5,18 +5,20 @@ We created two models with the objective to detect the age and gender of the use
 * the gender classification groups are male and female.
 
 
-
 ## Dataset used
 
 [Mozilla's Common Voice](https://www.kaggle.com/mozillaorg/common-voice) 
 
+**Note that the following is optional**
 If you wish to extract the features (the npy files) on your own: dwanload the dataset, extract it and move it with the files currently in "archive" folder. Then you will need:
 1. run mp3_to_wav.py
 2. run  preparation.py
 3. run save_csv.py
 
+
 ## Training
-If you want to train the age_classification model, make sure that "is_age" flag is True (line 11 "train.py"). If you want to train the gender_classification model, make sure the flag is False.
+* In order to train the age classification model, make sure the "is_age" flag is True (line 11 "train.py"). 
+* If you want to train the gender classification model, make sure the same flag is False.
 To train a model run the following command:
 
     python train.py
