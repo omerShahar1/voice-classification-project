@@ -31,7 +31,7 @@ To train a model run the following command:
 
 
 
-### results accuracy
+## results accuracy
 * gender classification success rate is currently 96%
 * age classification success rate is currently 78%
 
