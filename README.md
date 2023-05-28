@@ -1,6 +1,6 @@
 ## Introduction
 The following project focus on age and gender classification from voice. 
-We created a model with the objective to detect the age and gender of the users through chosen traits in their voice. 
+We created two models with the objective to detect the age and gender of the users through chosen traits in their voice. 
 The ages groups we used for classification are: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70+
 and the gender classification groups are male and female.
 
